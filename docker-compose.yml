@@ -1,0 +1,14 @@
+services:
+  db_mysql:
+    image: mysql
+    container_name: db_mysql
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: a**a
+      MYSQL_DATABASE: cornmarket
+      MYSQL_USER: hice
+      MYSQL_PASSWORD: a**a
+    ports:
+      - '3307:3306'

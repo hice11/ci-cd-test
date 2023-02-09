@@ -1,0 +1,3 @@
+[submodule "submodule-data"]
+	path = submodule-data
+	url = https://github.com/hice11/ci-cd-test-sub.git
